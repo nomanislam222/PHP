@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+</head>
+
+<body>
+<h1>Registration</h1>
+<form action="reg.php" method="POST">
+<table>
+  <tr>
+    <td>
+      <fieldset>
+        <legend>General Information:</legend>
+        <table>
+         <tr>
+           <td align="center"><b>First Name</b></td>
+           <td> : <input type="text" name="fname" id="fname"></td>
+           <td rowspan="7"><input type="file" name="fileUpload"></td>
+         </tr>
+
+     <tr>
+      <td align="center"><b>Last name</b></td>
+      <td> :  <input type="text" name="lname"></td>
+     </tr>
+
+     <tr>
+      <td align="center"><b>Gender</b></td>
+      <td> : <label><input type="radio" name="gender" value="male"> Male </label>
+             <label><input type="radio" name="gender" value="female"> Female </label>
+     </tr>
+
+     <tr>
+      <td align="center"><b>Father's Name</b></td>
+      <td> : <input type="text" name="fa_name" value="XYZ"></td>
+     </tr>
+
+     <tr>
+      <td align="center"><b>Mother's Name</b></td>
+      <td> : <input type="text" name="mo_name" value="ZYX"></td>
+     </tr>
+
+     <tr>
+      <td align="center"><b>Blood Group</b></td>
+      <td> : <select name="blood">
+                <option value="b_pos">B+</option>
+                <option value="b_neg">B-</option>
+                <option value="a_pos">A+</option>
+                <option value="a_neg">A-</option>
+                <option value="o_pos">O+</option>
+                <option value="o_neg">O-</option>
+                <option value="ab_pos">AB+</option>
+                <option value="ab_neg">AB-</option>
+                <option value="other">Other</option></select></td>
+     </tr>
+
+     <tr>
+      <td align="center"><b>Religion</b></td>
+      <td> : <select name="religion">
+                <option value="islam">Islam</option>
+                <option value="christianity">Christianity</option>
+                <option value="hinduism">Hinduism</option>
+                <option value="other">Other</option></select> </td>
+     </tr>
+        </table>
+      </fieldset>
+    </td>
+
+
+    <td>
+      <fieldset>
+        <legend>Contact Information:</legend>
+        <table>
+          <tr>
+            <td align="center"><b>Email</b></td>
+            <td> : <input type="text" name="email" value="21-4543-3@student.aiub.edu"></td>
+          </tr>
+          <tr>
+            <td align="center"><b>Phone/Mobile</b></td>
+            <td> : <input type="text" name="phone" value="01706129252"></td>
+          </tr>
+          <tr>
+            <td align="center"><b>Website</b></td>
+            <td> : <input type="text" name="wb_address" value="github.com/nomanislam222"></td>
+          </tr>
+          <tr>
+            <td align="center"><b>Address</b></td>
+            <td><fieldset>
+        <legend>Present Address:</legend>
+        <table>
+          <tr>
+            <select name="country">
+                <option value="bd">Bangladesh</option>
+                <option value="ind">India</option>
+                <option value="pak">Pakistan</option>
+                <option value="other">Other</option></select>
+            <select name="city">
+                <option value="dhaka">Dhaka</option>
+                <option value="raj">Rajshahi</option>
+                <option value="ctng">Chittagong</option>
+                <option value="other">Other</option></select><br>
+            <textarea name="area">Kuratoli</textarea><br>
+            <input type="text" name="street" value="123">
+          </tr></table></legend></td>
+          </tr>
+
+        </table>
+      </fieldset>
+    </td>
+
+   
+    <td>
+      <fieldset>
+        <legend>Account Information:</legend>
+        <table>
+          <tr>
+            <td align="center"><b>User Name</b></td>
+            <td>: <input type="text" name="user" value="noman222"></td>
+          </tr>
+           <tr>
+            <td align="center"><b>Password</b></td>
+            <td>: <input type="password" name="password" value="12345"></td>
+          </tr>
+         <tr>
+            <td align="center"><b>Confirm Password</b></td>
+            <td>: <input type="password" name="confirm_password" value="12345"></td>
+          </tr>
+        </table>
+      </fieldset>
+<br>
+<input type="submit" value="Register">
+    </td> 
+  </tr>
+</table>
+</form>
+</body>
+</html>
