@@ -1,0 +1,47 @@
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.field {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+
+#submit{
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.preview {
+    margin-top: 20px;
+}
+
+.preview img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.preview p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
+
